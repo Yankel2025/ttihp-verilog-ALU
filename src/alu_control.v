@@ -43,14 +43,14 @@ module alu_control (
   always @(*) 
         begin
             case(ALUcontrol)
-                3'd0: resultado <= sumarest;    // Suma
-                3'd1: resultado <= sumarest;    // Resta
-                3'd2: resultado <= andab;
-                3'd3: resultado <= orab;
-                3'd4: resultado <= DespDer;    // Desp. Derecha en Suma
-                3'd5: resultado <= DespDer;    // Desp. Derecha en Resta
-                3'd6: resultado <= DespIzq;    // Desp. Izquierda en Suma
-                3'd7: resultado <= DespIzq;    // Desp. Izquierda en Resta
+                3'd0: resultado = sumarest;    // Suma
+                3'd1: resultado = sumarest;    // Resta
+                3'd2: resultado = andab;
+                3'd3: resultado = orab;
+                3'd4: resultado = DespDer;    // Desp. Derecha en Suma
+                3'd5: resultado = DespDer;    // Desp. Derecha en Resta
+                3'd6: resultado = DespIzq;    // Desp. Izquierda en Suma
+                3'd7: resultado = DespIzq;    // Desp. Izquierda en Resta
             endcase
         end
     
