@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Controla una persiana según instrucciones de usuario o funcion automático mediante sensor de iluminación de salida binaria.
+Guarda los 8 bits de las señales A y B, posteriormente se selecciona la operacion que deseamos de la ALU para visualizar en los primeros 8 bits de la salida y los otros 8 bits indican la operacion y las Flags de la ALU.
 
 ## How to test
 
