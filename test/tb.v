@@ -28,7 +28,7 @@ module tb ();
   always #5 clk = ~clk;
 
   // Replace tt_um_example with your module name:
-  tt_um_fsm_Yankel2025 user_project (
+  tt_um_alu_Yankel2025 user_project (
       .ui_in  (ui_in),    // Dedicated inputs
       .uo_out (uo_out),   // Dedicated outputs
       .uio_in (uio_in),   // IOs: Input path
